@@ -1,0 +1,43 @@
+main {
+    height: 280px;
+    width: 400px;
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr;
+    box-shadow: 2px 2px 10px 2px gray;
+    border-radius: 20px;
+}
+h1, h2 {
+    margin: 0
+}
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.top {
+    background-color: red;
+    color: white;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle {
+    font-family: fantasy;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.bottom {
+    background-color: red;
+    border-radius: 0px 0px 20px 20px;
+}
