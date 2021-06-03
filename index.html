@@ -8,17 +8,24 @@
     <title>Document</title>
 </head>
 <body>
+    <input type="text" id="input-field">
+    <input type="color" id="color-field">
+    <button id="submit-btn">Update name tag</button>
+    <input type="text" id="pronoun-input">
+    <button id="pronoun-btn">Add pronouns</button>
     <main>
-        <section class="top">
+        <section class="top" id="top-section">
             <h1>Hello</h1>
             <h2>my name is</h2>
         </section>
-        <section class="middle">
-            <span>Emily Sellers</span>
+        <section class="middle" id="middle-section">
+            <span id="name">Emily Sellers</span>
+            <span id="pronoun">(she/her)</span>
         </section>
-        <section class="bottom">
+        <section class="bottom" id="bottom-section">
 
         </section>
     </main>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
